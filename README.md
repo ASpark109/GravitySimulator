@@ -1,4 +1,6 @@
 # GravitySimulator
+Calculations are made on the basis of the formula of gravitational interaction of two bodies. Newton's second law is used to calculate the acceleration of a body.
+
 The program has prepared several templates, including a large-scale (real) system:
 
 <ul>
