@@ -21,7 +21,7 @@ let t;
 function initRealSystem()
 {
     bodyNum = 4;
-    t = 0.5;
+    t = 60;
     kilometersPerPixel = 150;
     G_forse = 6.67408 * Math.pow(10, -11);
     bodyArr[0] = new Body(500, 300, 0, 0, 5.9722 * Math.pow(10, 24), 0)

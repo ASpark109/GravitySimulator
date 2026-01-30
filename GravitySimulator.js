@@ -111,20 +111,16 @@ class  Body
     move()
     {
         //Calculation of the instantaneous velocity of the body along the Y axis
-        this.speedY = this.speedY + this.acсY * t
+        this.speedY = this.speedY + this.acсY * t;
 
         //Calculation of the instantaneous velocity of the body along the X axis
-        this.speedX = this.speedX + this.acсX * t
+        this.speedX = this.speedX + this.acсX * t;
         
         //Calculation of new coordinates of the X axis
-        this.x = this.x + this.speedX * t + this.acсX * Math.pow(t, 2) / 2
+        this.x = this.x + this.speedX * t;
 
         //Calculation of new coordinates of the X axis
-        this.y = this.y + this.speedY * t + this.acсY * Math.pow(t, 2) / 2
-
-
-            //this.x += this.speedX;
-            //this.y += this.speedY;
+        this.y = this.y + this.speedY * t;
     }
 
     //A method for displaying a point
